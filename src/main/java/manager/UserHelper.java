@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +29,10 @@ public class UserHelper extends HelperBase{
         type(By.id("email"),email);
         type(By.id("password"),password);
     }
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
 
     public void submitForm() {
        // click(By.cssSelector("[type='submit']"));
@@ -41,5 +46,12 @@ public class UserHelper extends HelperBase{
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
 
 return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
+    }
+
+    public void clickOkButton() {
+
+        if(isElementPresent(By.xpath("//button[text()='Ok']"))){
+            click(By.xpath("//button[text()='Ok']"));
+        }
     }
 }
