@@ -37,6 +37,9 @@ public class UserHelper extends HelperBase{
     public void submitForm() {
        // click(By.cssSelector("[type='submit']"));
         WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.elementToBeClickable(submit));
+
         submit.submit();
 
     }
@@ -53,5 +56,13 @@ return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains
         if(isElementPresent(By.xpath("//button[text()='Ok']"))){
             click(By.xpath("//button[text()='Ok']"));
         }
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submitForm();
+        clickOkButton();
+    pause(1000);
     }
 }

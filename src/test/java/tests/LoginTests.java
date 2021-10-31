@@ -14,9 +14,7 @@ public void precondition(){
     if(!app.getUserHelper().isLoginPresent()){
         app.getUserHelper().logout();
     }
-
 }
-
 
     @Test
     public void loginSuccess(){
