@@ -65,8 +65,19 @@ public void select (By locator, String option){
         return isForm;
     }
 
-    public void attachedPhoto(){
+    public void attachedPhoto(String link){
         wd.findElement(By.id("photos"))
-                .sendKeys("/Users/tayahatum/Qa30/Qa30_ILCarro/auto.jpeg");
+                .sendKeys(link);
+    }
+
+    public boolean isCarAdded() {
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.className("dialog-container"))));
+        String text = wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+        return text.contains("Car added");
+    }
+
+    public void submitAddedCar() {
+        click(By.xpath("//button[.='Search cars']"));
     }
 }
