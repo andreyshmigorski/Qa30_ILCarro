@@ -2,6 +2,7 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -64,5 +65,32 @@ return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains
         submitForm();
         clickOkButton();
     pause(1000);
+    }
+
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"), user.getName());
+        type(By.id("lastName"), user.getLastname());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+        //click(By.id("terms-of-use"));
+       // click(By.cssSelector("label[for='terms-of-use']")); //===click(By.xpath("//label[contains(text(),'I agree to the')]"));
+       // click(By.cssSelector(".checkbox-container input")) ====click(By.id("terms-of-use"));
+        //click(By.cssSelector(".checkbox-container"));
+
+        JavascriptExecutor js= (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+    }
+
+    public boolean isRegistered() {
+        WebDriverWait wait = new WebDriverWait(wd,10);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+
+        return wd.findElement(By.cssSelector(".dialog-container h1")).getText().contains("Registered");
     }
 }
