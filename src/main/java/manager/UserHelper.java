@@ -1,10 +1,8 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -76,14 +74,6 @@ return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains
         type(By.id("lastName"), user.getLastname());
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
-        //click(By.id("terms-of-use"));
-       // click(By.cssSelector("label[for='terms-of-use']")); //===click(By.xpath("//label[contains(text(),'I agree to the')]"));
-       // click(By.cssSelector(".checkbox-container input")) ====click(By.id("terms-of-use"));
-        //click(By.cssSelector(".checkbox-container"));
-
-        JavascriptExecutor js= (JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('#terms-of-use').click();");
-        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
 
     }
 
@@ -92,5 +82,39 @@ return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
 
         return wd.findElement(By.cssSelector(".dialog-container h1")).getText().contains("Registered");
+    }
+
+    public void checkPolicy() {
+        click(By.xpath("//label[@for='terms-of-use']"));
+        //click(By.id("terms-of-use"));
+
+        // click(By.cssSelector("label[for='terms-of-use']")); //===click(By.xpath("//label[contains(text(),'I agree to the')]"));
+        // click(By.cssSelector(".checkbox-container input")) ====click(By.id("terms-of-use"));
+//        click(By.cssSelector(".checkbox-container"));
+//        click(By.cssSelector(".checkbox-container"));
+
+//        JavascriptExecutor js= (JavascriptExecutor) wd;
+//        js.executeScript("document.querySelector('#terms-of-use').click();");
+//        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+//        click(By.id("email"));
+//        Actions actions = new Actions(wd);
+//        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
+//
+//        Rectangle rect = container.getRect();
+//       // int x= rect.getX() + rect.getWidth()/10;
+//        int x= rect.getX() + 5;
+//        int y = rect.getY()+(rect.getHeight()/4);
+//     actions.moveByOffset(x,y).click().perform();
+    }
+
+
+    public boolean isErrorPasswordDisplayed() {
+
+        return isElementPresent(By.xpath("//*[text()='Password must contain minimum 8 symbols']"));
+
+    }
+    public boolean isYallaButtonActive() {
+        return wd.findElement(By.xpath("//button[@type='submit']")).isEnabled();
+        // return isElementPresent(By.xpath("//button[@disabled]"));
     }
 }

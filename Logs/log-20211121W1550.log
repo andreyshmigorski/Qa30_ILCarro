@@ -1,0 +1,23 @@
+15:50:50  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15:50:52  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+15:50:52  INFO  tests.TestBase - Start test --->registrationPasswordTest
+15:50:52  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+15:50:52  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+15:50:52  INFO  manager.MyListener - Start search element --->By.id: name
+15:50:52  INFO  manager.MyListener - The element --->By.id: name was found
+15:50:52  INFO  manager.MyListener - Start search element --->By.id: lastName
+15:50:52  INFO  manager.MyListener - The element --->By.id: lastName was found
+15:50:52  INFO  manager.MyListener - Start search element --->By.id: email
+15:50:52  INFO  manager.MyListener - The element --->By.id: email was found
+15:50:53  INFO  manager.MyListener - Start search element --->By.id: password
+15:50:53  INFO  manager.MyListener - The element --->By.id: password was found
+15:50:53  INFO  manager.MyListener - Start search element --->By.cssSelector: .checkbox-container
+15:50:53  INFO  manager.MyListener - The element --->By.cssSelector: .checkbox-container was found
+15:50:53  INFO  manager.MyListener - Start search element --->By.xpath: //*[text()='Password must contain minimum 8 symbols']
+15:50:53  INFO  manager.MyListener - The element --->By.xpath: //*[text()='Password must contain minimum 8 symbols'] was found
+15:50:53  INFO  manager.MyListener - Start search element --->By.xpath: //button[@type='submit']
+15:50:53  INFO  manager.MyListener - The element --->By.xpath: //button[@type='submit'] was found
+15:50:53  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:51:01  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:51:01  INFO  tests.TestBase - The end of test --->registrationPasswordTest
+15:51:01  INFO  manager.ApplicationManager - The browser  has been closed

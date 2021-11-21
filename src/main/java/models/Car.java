@@ -7,7 +7,8 @@ import lombok.*;
 @Setter
 @Builder
 @ToString
-
+@NoArgsConstructor
+@AllArgsConstructor
 
 public class Car {
 

@@ -1,0 +1,47 @@
+15:57:52  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15:57:55  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+15:57:55  INFO  tests.TestBase - Start test --->registrationPasswordTest
+15:57:55  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+15:57:55  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+15:57:55  INFO  manager.MyListener - Start search element --->By.id: name
+15:57:55  INFO  manager.MyListener - The element --->By.id: name was found
+15:57:55  INFO  manager.MyListener - Start search element --->By.id: lastName
+15:57:55  INFO  manager.MyListener - The element --->By.id: lastName was found
+15:57:55  INFO  manager.MyListener - Start search element --->By.id: email
+15:57:55  INFO  manager.MyListener - The element --->By.id: email was found
+15:57:56  INFO  manager.MyListener - Start search element --->By.id: password
+15:57:56  INFO  manager.MyListener - The element --->By.id: password was found
+15:57:56  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+15:57:56  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+15:57:56  INFO  manager.MyListener - Start search element --->By.xpath: //*[text()='Password must contain minimum 8 symbols']
+15:57:56  INFO  manager.MyListener - The element --->By.xpath: //*[text()='Password must contain minimum 8 symbols'] was found
+15:57:56  INFO  manager.MyListener - Start search element --->By.xpath: //button[@type='submit']
+15:57:56  INFO  manager.MyListener - The element --->By.xpath: //button[@type='submit'] was found
+15:57:56  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:58:04  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:58:04  INFO  tests.TestBase - The end of test --->registrationPasswordTest
+15:58:04  INFO  tests.TestBase - Start test --->registrationSuccessTest
+15:58:04  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+15:58:04  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+15:58:04  INFO  manager.MyListener - Start search element --->By.id: name
+15:58:04  INFO  manager.MyListener - The element --->By.id: name was found
+15:58:04  INFO  manager.MyListener - Start search element --->By.id: lastName
+15:58:04  INFO  manager.MyListener - The element --->By.id: lastName was found
+15:58:05  INFO  manager.MyListener - Start search element --->By.id: email
+15:58:05  INFO  manager.MyListener - The element --->By.id: email was found
+15:58:05  INFO  manager.MyListener - Start search element --->By.id: password
+15:58:05  INFO  manager.MyListener - The element --->By.id: password was found
+15:58:05  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+15:58:05  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+15:58:05  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+15:58:05  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+15:58:05  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+15:58:06  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+15:58:06  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+15:58:06  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+15:58:06  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:58:06  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:58:06  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:58:06  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:58:06  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+15:58:06  INFO  manager.ApplicationManager - The browser  has been closed

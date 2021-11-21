@@ -1,0 +1,45 @@
+15:45:16  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15:45:19  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+15:45:19  INFO  tests.TestBase - Start test --->registrationPasswordTest
+15:45:19  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+15:45:19  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+15:45:20  INFO  manager.MyListener - Start search element --->By.id: name
+15:45:20  INFO  manager.MyListener - The element --->By.id: name was found
+15:45:20  INFO  manager.MyListener - Start search element --->By.id: lastName
+15:45:20  INFO  manager.MyListener - The element --->By.id: lastName was found
+15:45:20  INFO  manager.MyListener - Start search element --->By.id: email
+15:45:20  INFO  manager.MyListener - The element --->By.id: email was found
+15:45:20  INFO  manager.MyListener - Start search element --->By.id: password
+15:45:20  INFO  manager.MyListener - The element --->By.id: password was found
+15:45:20  INFO  manager.MyListener - Start search element --->By.cssSelector: .checkbox-container
+15:45:20  INFO  manager.MyListener - The element --->By.cssSelector: .checkbox-container was found
+15:45:21  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+15:45:21  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+15:45:31  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:45:39  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:45:39  INFO  tests.TestBase - The end of test --->registrationPasswordTest
+15:45:39  INFO  tests.TestBase - Start test --->registrationPositiveTest
+15:45:39  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+15:45:39  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+15:45:39  INFO  manager.MyListener - Start search element --->By.id: name
+15:45:39  INFO  manager.MyListener - The element --->By.id: name was found
+15:45:39  INFO  manager.MyListener - Start search element --->By.id: lastName
+15:45:39  INFO  manager.MyListener - The element --->By.id: lastName was found
+15:45:39  INFO  manager.MyListener - Start search element --->By.id: email
+15:45:39  INFO  manager.MyListener - The element --->By.id: email was found
+15:45:40  INFO  manager.MyListener - Start search element --->By.id: password
+15:45:40  INFO  manager.MyListener - The element --->By.id: password was found
+15:45:40  INFO  manager.MyListener - Start search element --->By.cssSelector: .checkbox-container
+15:45:40  INFO  manager.MyListener - The element --->By.cssSelector: .checkbox-container was found
+15:45:40  INFO  manager.MyListener - We have a throwable --> org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:57034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc9176f35d9da435f1353b0ec86dacc4
+15:45:41  INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-2740.png
+15:45:41  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+15:45:49  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+15:45:49  INFO  tests.TestBase - The end of test --->registrationPositiveTest
+15:45:49  INFO  manager.ApplicationManager - The browser  has been closed
