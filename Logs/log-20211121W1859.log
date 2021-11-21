@@ -1,0 +1,16 @@
+18:59:28  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+18:59:31  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+18:59:31  INFO  tests.TestBase - Start test --->searchTests
+18:59:31  INFO  manager.MyListener - Start search element --->By.id: city
+18:59:31  INFO  manager.MyListener - The element --->By.id: city was found
+18:59:31  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+18:59:32  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+18:59:32  INFO  manager.MyListener - Start search element --->By.id: dates
+18:59:33  INFO  manager.MyListener - The element --->By.id: dates was found
+18:59:33  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 25 ']
+18:59:33  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 25 '] was found
+18:59:33  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 30 ']
+18:59:33  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 30 '] was found
+18:59:33  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+18:59:33  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+18:59:34  INFO  tests.TestBase - The end of test --->searchTests
