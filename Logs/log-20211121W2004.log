@@ -1,0 +1,42 @@
+20:04:11  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+20:04:14  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+20:04:14  INFO  tests.TestBase - Start test --->searchTests
+20:04:14  INFO  manager.MyListener - Start search element --->By.id: city
+20:04:14  INFO  manager.MyListener - The element --->By.id: city was found
+20:04:15  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+20:04:15  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+20:04:16  INFO  manager.MyListener - Start search element --->By.id: dates
+20:04:16  INFO  manager.MyListener - The element --->By.id: dates was found
+20:04:16  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 25 ']
+20:04:16  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 25 '] was found
+20:04:16  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+20:04:16  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+20:04:17  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 27 ']
+20:04:17  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 27 '] was found
+20:04:17  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+20:04:17  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+20:04:17  INFO  manager.MyListener - Start search element --->By.cssSelector: .cars-container
+20:04:18  INFO  manager.MyListener - The element --->By.cssSelector: .cars-container was found
+20:04:18  INFO  manager.MyListener - Start search element --->By.cssSelector: .logo
+20:04:18  INFO  manager.MyListener - The element --->By.cssSelector: .logo was found
+20:04:19  INFO  tests.TestBase - The end of test --->searchTests
+20:04:19  INFO  tests.TestBase - Start test --->searchTests2
+20:04:19  INFO  manager.MyListener - Start search element --->By.id: city
+20:04:19  INFO  manager.MyListener - The element --->By.id: city was found
+20:04:20  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+20:04:20  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+20:04:20  INFO  manager.MyListener - Start search element --->By.id: dates
+20:04:20  INFO  manager.MyListener - The element --->By.id: dates was found
+20:04:21  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 25 ']
+20:04:21  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 25 '] was found
+20:04:21  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+20:04:21  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+20:04:21  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 27 ']
+20:04:21  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 27 '] was found
+20:04:21  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+20:04:21  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+20:04:21  INFO  manager.MyListener - Start search element --->By.cssSelector: .cars-container
+20:04:22  INFO  manager.MyListener - The element --->By.cssSelector: .cars-container was found
+20:04:22  INFO  manager.MyListener - Start search element --->By.cssSelector: .logo
+20:04:22  INFO  manager.MyListener - The element --->By.cssSelector: .logo was found
+20:04:23  INFO  tests.TestBase - The end of test --->searchTests2

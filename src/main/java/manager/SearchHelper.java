@@ -35,6 +35,9 @@ public class SearchHelper extends HelperBase {
         for (int i = 0; i < diffStart; i++) {
             click(By.xpath("//button[@aria-label='Next month']"));
         }
+
+        String locator = "//div[.=' 25 ']";
+        String locator2 = "//div[.=' " + dataFrom[1] + " ']";
         String locator3 = String.format("//div[.=' %s ']", dataFrom[1]);
         click(By.xpath(locator3));
 
@@ -42,8 +45,7 @@ public class SearchHelper extends HelperBase {
             click(By.xpath("//button[@aria-label='Next month']"));
         }
 
-        String locator = "//div[.=' 25 ']";
-        String locator2 = "//div[.=' " + dataFrom[1] + " ']";
+
         String locator4 = String.format("//div[.=' %s ']", dataTo[1]);
         click(By.xpath(locator4));
 
@@ -55,5 +57,15 @@ public class SearchHelper extends HelperBase {
         click(By.cssSelector("div.pac-item"));
         pause(500);
 
+    }
+
+    public boolean isListOfCarsAppeared() {
+
+        //should
+        return isElementPresent(By.cssSelector(".cars-container"));
+    }
+
+    public void returnToMainPage() {
+        click(By.cssSelector(".logo"));
     }
 }

@@ -19,15 +19,26 @@ public void precondition(){
     }
 }
 
+
+
     @Test
     public void loginSuccessWithModel(){
         User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
 
     app.getUserHelper().openLoginForm();
-    //app.getUserHelper().fillLoginForm("noa@gmail.com","Nnoa12345$");
     app.getUserHelper().fillLoginForm(user);
     app.getUserHelper().submitForm();
     Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
+
+
+
+
+
+
+
+
+
+
 
 
     }
