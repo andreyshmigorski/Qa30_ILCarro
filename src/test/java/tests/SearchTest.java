@@ -13,6 +13,13 @@ public class SearchTest extends TestBase{
 
         Assert.assertTrue(app.search().isListOfCarsAppeared());
     }
+
+    @Test
+    public  void test(){
+
+    }
+
+
     @Test(enabled = false)
     public void searchTests2(){
         app.search().fillSearchForm("Haifa","11/25/2021","12/27/2021");

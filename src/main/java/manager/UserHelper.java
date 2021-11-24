@@ -85,7 +85,10 @@ return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains
     }
 
     public void checkPolicy() {
-        click(By.xpath("//label[@for='terms-of-use']"));
+        boolean isselected = wd.findElement(By.id("terms-of-use")).isSelected();
+        if(!isselected) {
+            click(By.xpath("//label[@for='terms-of-use']"));
+        }
         //click(By.id("terms-of-use"));
 
         // click(By.cssSelector("label[for='terms-of-use']")); //===click(By.xpath("//label[contains(text(),'I agree to the')]"));

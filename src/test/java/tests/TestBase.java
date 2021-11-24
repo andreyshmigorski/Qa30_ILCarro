@@ -18,7 +18,7 @@ public class TestBase {
     Logger logger= LoggerFactory.getLogger(TestBase.class);
 
     @BeforeSuite
-    public void setUp()  {
+    public void setUp() throws IOException {
         app.init();
 
     }

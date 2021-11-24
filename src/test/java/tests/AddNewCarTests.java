@@ -12,7 +12,7 @@ public class AddNewCarTests extends TestBase{
     @BeforeMethod
     public void precondition(){
         if(app.getUserHelper().isLoginPresent()){
-            app.getUserHelper().login(new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+            app.getUserHelper().login(new User().withEmail(app.email()).withPassword(app.password()));
         }
 
     }

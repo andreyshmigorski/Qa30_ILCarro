@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -14,15 +15,9 @@ public class RegistrationTest extends TestBase{
         }
     }
 
-    @Test(invocationCount = 2)
-    public void registrationSuccessTest() {
-        int i = (int)((System.currentTimeMillis()/1000)%3600);
-
-        User user = new User()
-                .withName("Lis")
-                .withLastname("Snow")
-                .withEmail("snow"+i+"@gmail.com")
-                .withPassword("Snow123454");
+    @Test(dataProvider="registrationCSV",dataProviderClass = MyDataProvider.class)
+    public void registrationSuccessTest(User user) {
+        logger.info(user.toString());
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
