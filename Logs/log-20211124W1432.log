@@ -1,0 +1,56 @@
+14:32:20  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:32:22  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+14:32:22  INFO  tests.TestBase - Start test --->registrationSuccessTest
+14:32:22  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:32:22  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:32:22  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:32:22  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+14:32:22  INFO  manager.MyListener - Start search element --->By.id: name
+14:32:22  INFO  manager.MyListener - The element --->By.id: name was found
+14:32:22  INFO  manager.MyListener - Start search element --->By.id: lastName
+14:32:22  INFO  manager.MyListener - The element --->By.id: lastName was found
+14:32:22  INFO  manager.MyListener - Start search element --->By.id: email
+14:32:22  INFO  manager.MyListener - The element --->By.id: email was found
+14:32:22  INFO  manager.MyListener - Start search element --->By.id: password
+14:32:22  INFO  manager.MyListener - The element --->By.id: password was found
+14:32:23  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+14:32:23  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+14:32:23  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:32:23  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:32:23  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+14:32:24  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+14:32:24  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:32:24  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:32:24  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:32:24  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:32:24  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:32:24  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:32:24  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+14:32:24  INFO  tests.TestBase - Start test --->registrationSuccessTest
+14:32:24  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:32:32  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:32:32  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+14:32:32  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+14:32:32  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:32:32  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+14:32:32  INFO  manager.MyListener - Start search element --->By.id: name
+14:32:32  INFO  manager.MyListener - The element --->By.id: name was found
+14:32:32  INFO  manager.MyListener - Start search element --->By.id: lastName
+14:32:32  INFO  manager.MyListener - The element --->By.id: lastName was found
+14:32:33  INFO  manager.MyListener - Start search element --->By.id: email
+14:32:33  INFO  manager.MyListener - The element --->By.id: email was found
+14:32:33  INFO  manager.MyListener - Start search element --->By.id: password
+14:32:33  INFO  manager.MyListener - The element --->By.id: password was found
+14:32:33  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+14:32:33  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+14:32:33  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:32:33  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:32:33  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+14:32:34  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+14:32:34  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:32:34  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:32:34  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:32:34  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:32:34  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:32:34  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:32:34  INFO  tests.TestBase - The end of test --->registrationSuccessTest

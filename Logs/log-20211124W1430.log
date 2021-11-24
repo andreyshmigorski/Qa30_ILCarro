@@ -1,0 +1,87 @@
+14:30:16  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:30:23  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+14:30:23  INFO  tests.TestBase - Start test --->registrationPasswordTest
+14:30:23  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:30:23  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+14:30:23  INFO  manager.MyListener - Start search element --->By.id: name
+14:30:23  INFO  manager.MyListener - The element --->By.id: name was found
+14:30:23  INFO  manager.MyListener - Start search element --->By.id: lastName
+14:30:23  INFO  manager.MyListener - The element --->By.id: lastName was found
+14:30:23  INFO  manager.MyListener - Start search element --->By.id: email
+14:30:23  INFO  manager.MyListener - The element --->By.id: email was found
+14:30:23  INFO  manager.MyListener - Start search element --->By.id: password
+14:30:24  INFO  manager.MyListener - The element --->By.id: password was found
+14:30:24  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+14:30:24  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+14:30:24  INFO  manager.MyListener - Start search element --->By.xpath: //*[text()='Password must contain minimum 8 symbols']
+14:30:24  INFO  manager.MyListener - The element --->By.xpath: //*[text()='Password must contain minimum 8 symbols'] was found
+14:30:24  INFO  manager.MyListener - Start search element --->By.xpath: //button[@type='submit']
+14:30:24  INFO  manager.MyListener - The element --->By.xpath: //button[@type='submit'] was found
+14:30:24  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:30:32  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:30:32  INFO  tests.TestBase - The end of test --->registrationPasswordTest
+14:30:32  INFO  tests.TestBase - Start test --->registrationSuccessTest
+14:30:32  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:30:32  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+14:30:32  INFO  manager.MyListener - Start search element --->By.id: name
+14:30:32  INFO  manager.MyListener - The element --->By.id: name was found
+14:30:32  INFO  manager.MyListener - Start search element --->By.id: lastName
+14:30:32  INFO  manager.MyListener - The element --->By.id: lastName was found
+14:30:32  INFO  manager.MyListener - Start search element --->By.id: email
+14:30:32  INFO  manager.MyListener - The element --->By.id: email was found
+14:30:33  INFO  manager.MyListener - Start search element --->By.id: password
+14:30:33  INFO  manager.MyListener - The element --->By.id: password was found
+14:30:33  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+14:30:33  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+14:30:33  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:30:33  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:30:33  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+14:30:33  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+14:30:33  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:30:34  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:30:34  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:30:34  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:30:34  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:30:34  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:30:34  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+14:30:54  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:30:56  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+14:30:56  INFO  tests.TestBase - Start test --->registrationSuccessTest
+14:30:56  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:30:56  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+14:30:56  INFO  manager.MyListener - Start search element --->By.id: name
+14:30:56  INFO  manager.MyListener - The element --->By.id: name was found
+14:30:57  INFO  manager.MyListener - Start search element --->By.id: lastName
+14:30:57  INFO  manager.MyListener - The element --->By.id: lastName was found
+14:30:57  INFO  manager.MyListener - Start search element --->By.id: email
+14:30:57  INFO  manager.MyListener - The element --->By.id: email was found
+14:30:57  INFO  manager.MyListener - Start search element --->By.id: password
+14:30:57  INFO  manager.MyListener - The element --->By.id: password was found
+14:30:57  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+14:30:57  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+14:30:57  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:30:58  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:30:58  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+14:30:58  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+14:30:58  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:30:58  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:30:58  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:30:58  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:30:58  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:30:58  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:30:58  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+14:30:58  INFO  tests.TestBase - Start test --->registrationSuccessTest
+14:30:58  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+14:31:06  INFO  manager.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Sign up ']"}
+  (Session info: chrome=96.0.4664.55)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.55, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:55835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f1d2a1278387d1a0c8ae55d5b6c0d4ea
+*** Element info: {Using=xpath, value=//a[text()=' Sign up ']}
+14:31:07  INFO  manager.MyListener - Screenshot with throwable -->src/test/screenshots/screenshot-1866.png
+14:31:07  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:31:16  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:31:16  INFO  tests.TestBase - The end of test --->registrationSuccessTest

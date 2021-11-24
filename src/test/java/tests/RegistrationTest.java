@@ -3,11 +3,18 @@ package tests;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase{
+    @BeforeMethod
+    public void precondition() {
+        if (!app.getUserHelper().isLoginPresent()) {
+            app.getUserHelper().logout();
+        }
+    }
 
-    @Test
+    @Test(invocationCount = 2)
     public void registrationSuccessTest() {
         int i = (int)((System.currentTimeMillis()/1000)%3600);
 

@@ -1,0 +1,30 @@
+18:55:42  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+18:55:48  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+18:55:48  INFO  tests.TestBase - Start test --->searchTestYear
+18:55:48  INFO  manager.MyListener - Start search element --->By.id: city
+18:55:48  INFO  manager.MyListener - The element --->By.id: city was found
+18:55:49  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+18:55:49  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.id: dates
+18:55:50  INFO  manager.MyListener - The element --->By.id: dates was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 3 ']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 3 '] was found
+18:55:50  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:50  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:51  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:51  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:51  INFO  manager.MyListener - Start search element --->By.xpath: //button[@aria-label='Next month']
+18:55:51  INFO  manager.MyListener - The element --->By.xpath: //button[@aria-label='Next month'] was found
+18:55:51  INFO  manager.MyListener - Start search element --->By.xpath: //div[.=' 6 ']
+18:55:51  INFO  manager.MyListener - The element --->By.xpath: //div[.=' 6 '] was found
+18:55:56  INFO  manager.MyListener - Start search element --->By.cssSelector: .logo
+18:55:56  INFO  manager.MyListener - The element --->By.cssSelector: .logo was found
+18:55:57  INFO  tests.TestBase - The end of test --->searchTestYear

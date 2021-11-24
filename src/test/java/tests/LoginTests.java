@@ -34,7 +34,7 @@ public class LoginTests extends TestBase {
         app.getUserHelper().submitForm();
         Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
-/// A B C D E F
+
 
 
 

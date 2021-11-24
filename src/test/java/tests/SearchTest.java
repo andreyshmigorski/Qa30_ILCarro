@@ -21,6 +21,13 @@ public class SearchTest extends TestBase{
         Assert.assertTrue(app.search().isListOfCarsAppeared());
     }
 
+    @Test
+    public void searchTestYear(){
+        app.search().fillInputCity("Haifa");
+        app.search().selectPeriodNew("03/03/2022","06/06/2022");
+        app.search().pause(5000);
+    }
+
     @AfterMethod
     public  void post(){
         app.search().returnToMainPage();

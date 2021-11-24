@@ -2,8 +2,8 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class SearchHelper extends HelperBase {
     public SearchHelper(WebDriver wd) {
@@ -14,6 +14,42 @@ public class SearchHelper extends HelperBase {
         fillInputCity(city);
         selectPeriod(from, to);
     }
+
+
+    public void selectPeriodNew(String fromD, String toD){
+
+        LocalDate from = LocalDate.parse(fromD, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate to = LocalDate.parse(toD,DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate now = LocalDate.now();
+        click(By.id("dates"));
+
+        selectData(from,now);
+
+//        int monthDiff =from.getYear()-now.getYear()==0 ? from.getMonthValue()-now.getMonthValue() : 12-now.getMonthValue()+from.getMonthValue();
+//
+//        for (int i = 0; i < monthDiff; i++) {
+//            click(By.xpath("//button[@aria-label='Next month']"));
+//        }
+        click(By.xpath(String.format("//div[.=' %s ']",from.getDayOfMonth() )));
+
+//        monthDiff= to.getYear()-from.getYear() ==0 ? to.getMonthValue() -from.getMonthValue() : 12- from.getMonthValue()+to.getMonthValue();
+//        for (int i = 0; i < monthDiff; i++) {
+//            click(By.xpath("//button[@aria-label='Next month']"));
+//        }
+        selectData(to,from);
+        click(By.xpath(String.format("//div[.=' %s ']",to.getDayOfMonth() )));
+    }
+
+    private  void selectData(LocalDate first, LocalDate second){
+        int monthDiff =first.getYear()-second.getYear()==0 ? first.getMonthValue()-second.getMonthValue() : 12-second.getMonthValue()+first.getMonthValue();
+
+        for (int i = 0; i < monthDiff; i++) {
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
+    }
+
+
+
 
     private void selectPeriod(String from, String to) {
         //   "11/25/2021","12/26/2021"
@@ -52,7 +88,7 @@ public class SearchHelper extends HelperBase {
     }
 
 
-    private void fillInputCity(String city) {
+    public void fillInputCity(String city) {
         type(By.id("city"), city);
         click(By.cssSelector("div.pac-item"));
         pause(500);
@@ -61,7 +97,7 @@ public class SearchHelper extends HelperBase {
 
     public boolean isListOfCarsAppeared() {
 
-        //should
+
         return isElementPresent(By.cssSelector(".cars-container"));
     }
 
