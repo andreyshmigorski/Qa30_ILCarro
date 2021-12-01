@@ -80,10 +80,10 @@ public class AddNewCarTests extends TestBase{
 
     }
 
-//    @AfterMethod
-//    public void posCondition(){
-//        app.getCar().submitAddedCar();
-//        app.getUserHelper().logout();
-//
-//    }
+    @AfterMethod
+    public void posCondition(){
+        app.getCar().submitAddedCar();
+        app.getUserHelper().logout();
+
+    }
 }

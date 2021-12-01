@@ -15,7 +15,7 @@ public class MyDataProvider {
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
         list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
+
 
         return list.iterator();
 

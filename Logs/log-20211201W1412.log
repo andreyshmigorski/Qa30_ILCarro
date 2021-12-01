@@ -1,0 +1,150 @@
+14:12:14  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:12:16  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+14:12:16  INFO  tests.TestBase - Start test --->addNewCarTestPositive
+14:12:16  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:12:16  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:12:16  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:12:16  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:12:16  INFO  manager.MyListener - Start search element --->By.id: email
+14:12:16  INFO  manager.MyListener - The element --->By.id: email was found
+14:12:16  INFO  manager.MyListener - Start search element --->By.id: password
+14:12:16  INFO  manager.MyListener - The element --->By.id: password was found
+14:12:16  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:12:16  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:12:17  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:12:18  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:12:18  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:12:18  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:12:19  INFO  manager.MyListener - Start search element --->By.id: 1
+14:12:19  INFO  manager.MyListener - The element --->By.id: 1 was found
+14:12:19  INFO  manager.MyListener - Start search element --->By.cssSelector: h2
+14:12:19  INFO  manager.MyListener - The element --->By.cssSelector: h2 was found
+14:12:19  INFO  manager.MyListener - Start search element --->By.id: pickUpPlace
+14:12:19  INFO  manager.MyListener - The element --->By.id: pickUpPlace was found
+14:12:19  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+14:12:20  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+14:12:20  INFO  manager.MyListener - Start search element --->By.id: make
+14:12:20  INFO  manager.MyListener - The element --->By.id: make was found
+14:12:20  INFO  manager.MyListener - Start search element --->By.id: model
+14:12:20  INFO  manager.MyListener - The element --->By.id: model was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: year
+14:12:21  INFO  manager.MyListener - The element --->By.id: year was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: engine
+14:12:21  INFO  manager.MyListener - The element --->By.id: engine was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: fuel
+14:12:21  INFO  manager.MyListener - The element --->By.id: fuel was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "Petrol"]
+14:12:21  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "Petrol"] was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: gear
+14:12:21  INFO  manager.MyListener - The element --->By.id: gear was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "MT"]
+14:12:21  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "MT"] was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: wheelsDrive
+14:12:21  INFO  manager.MyListener - The element --->By.id: wheelsDrive was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "AWD"]
+14:12:21  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "AWD"] was found
+14:12:21  INFO  manager.MyListener - Start search element --->By.id: doors
+14:12:21  INFO  manager.MyListener - The element --->By.id: doors was found
+14:12:22  INFO  manager.MyListener - Start search element --->By.id: seats
+14:12:22  INFO  manager.MyListener - The element --->By.id: seats was found
+14:12:22  INFO  manager.MyListener - Start search element --->By.id: class
+14:12:22  INFO  manager.MyListener - The element --->By.id: class was found
+14:12:22  INFO  manager.MyListener - Start search element --->By.id: fuelConsumption
+14:12:22  INFO  manager.MyListener - The element --->By.id: fuelConsumption was found
+14:12:22  INFO  manager.MyListener - Start search element --->By.id: serialNumber
+14:12:22  INFO  manager.MyListener - The element --->By.id: serialNumber was found
+14:12:23  INFO  manager.MyListener - Start search element --->By.id: price
+14:12:23  INFO  manager.MyListener - The element --->By.id: price was found
+14:12:23  INFO  manager.MyListener - Start search element --->By.id: distance
+14:12:23  INFO  manager.MyListener - The element --->By.id: distance was found
+14:12:23  INFO  manager.MyListener - Start search element --->By.cssSelector: .feature-input
+14:12:23  INFO  manager.MyListener - The element --->By.cssSelector: .feature-input was found
+14:12:23  INFO  manager.MyListener - Start search element --->By.id: about
+14:12:23  INFO  manager.MyListener - The element --->By.id: about was found
+14:12:23  INFO  manager.MyListener - Start search element --->By.id: photos
+14:12:23  INFO  manager.MyListener - The element --->By.id: photos was found
+14:12:24  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:12:24  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:12:25  INFO  manager.MyListener - Start search element --->By.className: dialog-container
+14:12:26  INFO  manager.MyListener - The element --->By.className: dialog-container was found
+14:12:26  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:12:26  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:12:26  INFO  manager.MyListener - Start search element --->By.xpath: //button[.='Search cars']
+14:12:26  INFO  manager.MyListener - The element --->By.xpath: //button[.='Search cars'] was found
+14:12:26  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+14:12:26  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+14:12:27  INFO  tests.TestBase - The end of test --->addNewCarTestPositive
+14:12:27  INFO  tests.TestBase - Start test --->addNewCarTestPositive2
+14:12:27  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:12:27  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:12:27  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+14:12:27  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+14:12:27  INFO  manager.MyListener - Start search element --->By.id: email
+14:12:27  INFO  manager.MyListener - The element --->By.id: email was found
+14:12:27  INFO  manager.MyListener - Start search element --->By.id: password
+14:12:27  INFO  manager.MyListener - The element --->By.id: password was found
+14:12:27  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:12:27  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:12:27  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:12:28  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:12:28  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+14:12:28  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+14:12:29  INFO  manager.MyListener - Start search element --->By.id: 1
+14:12:29  INFO  manager.MyListener - The element --->By.id: 1 was found
+14:12:30  INFO  manager.MyListener - Start search element --->By.cssSelector: h2
+14:12:30  INFO  manager.MyListener - The element --->By.cssSelector: h2 was found
+14:12:30  INFO  manager.MyListener - Start search element --->By.id: pickUpPlace
+14:12:30  INFO  manager.MyListener - The element --->By.id: pickUpPlace was found
+14:12:30  INFO  manager.MyListener - Start search element --->By.cssSelector: div.pac-item
+14:12:31  INFO  manager.MyListener - The element --->By.cssSelector: div.pac-item was found
+14:12:31  INFO  manager.MyListener - Start search element --->By.id: make
+14:12:31  INFO  manager.MyListener - The element --->By.id: make was found
+14:12:31  INFO  manager.MyListener - Start search element --->By.id: model
+14:12:31  INFO  manager.MyListener - The element --->By.id: model was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: year
+14:12:32  INFO  manager.MyListener - The element --->By.id: year was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: engine
+14:12:32  INFO  manager.MyListener - The element --->By.id: engine was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: fuel
+14:12:32  INFO  manager.MyListener - The element --->By.id: fuel was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "Petrol"]
+14:12:32  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "Petrol"] was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: gear
+14:12:32  INFO  manager.MyListener - The element --->By.id: gear was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "MT"]
+14:12:32  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "MT"] was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: wheelsDrive
+14:12:32  INFO  manager.MyListener - The element --->By.id: wheelsDrive was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.xpath: .//option[@value = "AWD"]
+14:12:32  INFO  manager.MyListener - The element --->By.xpath: .//option[@value = "AWD"] was found
+14:12:32  INFO  manager.MyListener - Start search element --->By.id: doors
+14:12:32  INFO  manager.MyListener - The element --->By.id: doors was found
+14:12:33  INFO  manager.MyListener - Start search element --->By.id: seats
+14:12:33  INFO  manager.MyListener - The element --->By.id: seats was found
+14:12:33  INFO  manager.MyListener - Start search element --->By.id: class
+14:12:33  INFO  manager.MyListener - The element --->By.id: class was found
+14:12:33  INFO  manager.MyListener - Start search element --->By.id: fuelConsumption
+14:12:33  INFO  manager.MyListener - The element --->By.id: fuelConsumption was found
+14:12:33  INFO  manager.MyListener - Start search element --->By.id: serialNumber
+14:12:33  INFO  manager.MyListener - The element --->By.id: serialNumber was found
+14:12:33  INFO  manager.MyListener - Start search element --->By.id: price
+14:12:34  INFO  manager.MyListener - The element --->By.id: price was found
+14:12:34  INFO  manager.MyListener - Start search element --->By.id: distance
+14:12:34  INFO  manager.MyListener - The element --->By.id: distance was found
+14:12:34  INFO  manager.MyListener - Start search element --->By.cssSelector: .feature-input
+14:12:34  INFO  manager.MyListener - The element --->By.cssSelector: .feature-input was found
+14:12:34  INFO  manager.MyListener - Start search element --->By.id: about
+14:12:34  INFO  manager.MyListener - The element --->By.id: about was found
+14:12:34  INFO  manager.MyListener - Start search element --->By.id: photos
+14:12:34  INFO  manager.MyListener - The element --->By.id: photos was found
+14:12:34  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+14:12:34  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+14:12:36  INFO  manager.MyListener - Start search element --->By.className: dialog-container
+14:12:37  INFO  manager.MyListener - The element --->By.className: dialog-container was found
+14:12:37  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+14:12:37  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+14:12:37  INFO  manager.MyListener - Start search element --->By.xpath: //button[.='Search cars']
+14:12:37  INFO  manager.MyListener - The element --->By.xpath: //button[.='Search cars'] was found
+14:12:37  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+14:12:37  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+14:12:38  INFO  tests.TestBase - The end of test --->addNewCarTestPositive2
