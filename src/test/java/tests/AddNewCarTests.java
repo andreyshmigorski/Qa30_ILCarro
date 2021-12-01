@@ -16,7 +16,7 @@ public class AddNewCarTests extends TestBase{
         }
 
     }
-
+//ad new car for jenkins
     @Test
     public void addNewCarTestPositive(){
         int i= (int)((System.currentTimeMillis()/1000)%3600);
