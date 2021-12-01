@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-24T18:51:14" hostname="MacBook-Pro-Taya.local" time="34.03">
+  <properties/>
+  <testcase name="registrationPasswordTest" classname="tests.RegistrationTest" time="2.764"/>
+  <testcase name="registrationSuccessTest[0](User{name='Sonya', lastname='Snow', email='winter3@gmail.com', password='Ww12345~'})" classname="tests.RegistrationTest" time="2.969"/>
+  <testcase name="registrationSuccessTest[1](User{name='Sonya', lastname='Snow', email='winter4@gmail.com', password='Ww12345~'})" classname="tests.RegistrationTest" time="2.091"/>
+  <testcase name="registrationSuccessTest[2](User{name='Sonya', lastname='Snow', email='winter5@gmail.com', password='Ww12345~'})" classname="tests.RegistrationTest" time="1.635"/>
+  <system-out><![CDATA[20:51:06  INFO  tests.TestBase - Start test --->registrationPasswordTest
+20:51:06  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+20:51:14  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+20:51:14  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+20:51:14  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+20:51:14  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+20:51:14  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+20:51:14  INFO  manager.MyListener - Start search element --->By.id: name
+20:51:15  INFO  manager.MyListener - The element --->By.id: name was found
+20:51:15  INFO  manager.MyListener - Start search element --->By.id: lastName
+20:51:15  INFO  manager.MyListener - The element --->By.id: lastName was found
+20:51:16  INFO  manager.MyListener - Start search element --->By.id: email
+20:51:16  INFO  manager.MyListener - The element --->By.id: email was found
+20:51:16  INFO  manager.MyListener - Start search element --->By.id: password
+20:51:16  INFO  manager.MyListener - The element --->By.id: password was found
+20:51:17  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+20:51:17  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+20:51:17  INFO  manager.MyListener - Start search element --->By.xpath: //*[text()='Password must contain minimum 8 symbols']
+20:51:17  INFO  manager.MyListener - The element --->By.xpath: //*[text()='Password must contain minimum 8 symbols'] was found
+20:51:17  INFO  manager.MyListener - Start search element --->By.xpath: //button[@type='submit']
+20:51:17  INFO  manager.MyListener - The element --->By.xpath: //button[@type='submit'] was found
+20:51:17  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:25  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:25  INFO  tests.TestBase - The end of test --->registrationPasswordTest
+20:51:25  INFO  tests.TestBase - Start test --->registrationSuccessTest
+20:51:25  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+20:51:25  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+20:51:25  INFO  tests.TestBase - User{name='Sonya', lastname='Snow', email='winter3@gmail.com', password='Ww12345~'}
+20:51:25  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+20:51:25  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+20:51:25  INFO  manager.MyListener - Start search element --->By.id: name
+20:51:25  INFO  manager.MyListener - The element --->By.id: name was found
+20:51:26  INFO  manager.MyListener - Start search element --->By.id: lastName
+20:51:26  INFO  manager.MyListener - The element --->By.id: lastName was found
+20:51:26  INFO  manager.MyListener - Start search element --->By.id: email
+20:51:26  INFO  manager.MyListener - The element --->By.id: email was found
+20:51:27  INFO  manager.MyListener - Start search element --->By.id: password
+20:51:27  INFO  manager.MyListener - The element --->By.id: password was found
+20:51:27  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+20:51:27  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+20:51:28  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+20:51:28  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+20:51:28  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+20:51:28  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+20:51:28  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+20:51:28  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+20:51:28  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:28  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:28  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:28  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:28  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+20:51:28  INFO  tests.TestBase - Start test --->registrationSuccessTest
+20:51:28  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+20:51:36  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+20:51:36  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+20:51:36  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+20:51:36  INFO  tests.TestBase - User{name='Sonya', lastname='Snow', email='winter4@gmail.com', password='Ww12345~'}
+20:51:36  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+20:51:36  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+20:51:37  INFO  manager.MyListener - Start search element --->By.id: name
+20:51:37  INFO  manager.MyListener - The element --->By.id: name was found
+20:51:37  INFO  manager.MyListener - Start search element --->By.id: lastName
+20:51:37  INFO  manager.MyListener - The element --->By.id: lastName was found
+20:51:37  INFO  manager.MyListener - Start search element --->By.id: email
+20:51:37  INFO  manager.MyListener - The element --->By.id: email was found
+20:51:38  INFO  manager.MyListener - Start search element --->By.id: password
+20:51:38  INFO  manager.MyListener - The element --->By.id: password was found
+20:51:38  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+20:51:38  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+20:51:38  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+20:51:38  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+20:51:38  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+20:51:38  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+20:51:38  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+20:51:38  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+20:51:39  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:39  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:39  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:39  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:39  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+20:51:39  INFO  tests.TestBase - Start test --->registrationSuccessTest
+20:51:39  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Log in ']
+20:51:47  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Log in '] was found
+20:51:47  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Logout ']
+20:51:47  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Logout '] was found
+20:51:47  INFO  tests.TestBase - User{name='Sonya', lastname='Snow', email='winter5@gmail.com', password='Ww12345~'}
+20:51:47  INFO  manager.MyListener - Start search element --->By.xpath: //a[text()=' Sign up ']
+20:51:47  INFO  manager.MyListener - The element --->By.xpath: //a[text()=' Sign up '] was found
+20:51:47  INFO  manager.MyListener - Start search element --->By.id: name
+20:51:47  INFO  manager.MyListener - The element --->By.id: name was found
+20:51:47  INFO  manager.MyListener - Start search element --->By.id: lastName
+20:51:47  INFO  manager.MyListener - The element --->By.id: lastName was found
+20:51:47  INFO  manager.MyListener - Start search element --->By.id: email
+20:51:47  INFO  manager.MyListener - The element --->By.id: email was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.id: password
+20:51:48  INFO  manager.MyListener - The element --->By.id: password was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.xpath: //label[@for='terms-of-use']
+20:51:48  INFO  manager.MyListener - The element --->By.xpath: //label[@for='terms-of-use'] was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.cssSelector: [type='submit']
+20:51:48  INFO  manager.MyListener - The element --->By.cssSelector: [type='submit'] was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container
+20:51:48  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.cssSelector: .dialog-container h1
+20:51:48  INFO  manager.MyListener - The element --->By.cssSelector: .dialog-container h1 was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:48  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:48  INFO  manager.MyListener - Start search element --->By.xpath: //button[text()='Ok']
+20:51:48  INFO  manager.MyListener - The element --->By.xpath: //button[text()='Ok'] was found
+20:51:48  INFO  tests.TestBase - The end of test --->registrationSuccessTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
