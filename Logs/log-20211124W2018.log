@@ -1,6 +1,0 @@
-20:18:59  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
-20:19:02  INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
-20:19:02  INFO  tests.TestBase - Start test --->test
-20:19:02  INFO  manager.MyListener - Start search element --->By.cssSelector: .logo
-20:19:02  INFO  manager.MyListener - The element --->By.cssSelector: .logo was found
-20:19:03  INFO  tests.TestBase - The end of test --->test
